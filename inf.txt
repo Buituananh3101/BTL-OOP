@@ -1,0 +1,39 @@
+
+    constructor;
+    setters;
+    getters;
+    Lưu file;
+    Đọc file;
+    In hàng bảng;
+
+
+    Thêm, Xóa, Sửa
+    Nhập kho
+    Kiểm hàng
+    Tìm kiếm
+    Sắp Xếp
+    Lưu tải nhập file
+
+
+    tạo hóa đơn
+    tổng hóa đơn
+    tạo chuỗi
+    in hóa đơn
+    Lưu file
+
+
+    Getters
+    Tính tiền
+
+
+    constructor
+    ~destructor
+    đăng nhập
+    đổi mật khẩu
+    ~menu
+
+
+    Constructor
+    menu cho khách
+   
+if(p->getStock()==0) inv.removeMaterial(id); --> Sửa lỗi ko xóa khi hết hàng

@@ -1,0 +1,49 @@
+Chạy: ./main.exe
+Dừng: ctrl C
+Xóa nhanh: ctrl L
+
+Nếu muốn pull code về thư mục mới "git clone https://github.com/username/myproject.git".
+Còn khi đã clone thư mục rồi thì chỉ cần pull thôi.
+
+git add .
+git commit -m ""
+git push
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++.exe build active file",
+      "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+      "args": [
+        "${fileDirname}\\*.cpp",
+        "-o",
+        "${fileDirname}\\main.exe"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "My builder: "
+    }
+  ]
+}
