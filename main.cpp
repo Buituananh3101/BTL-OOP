@@ -14,6 +14,7 @@ private:
     double gia;
     int tonKho;
     
+    
 public:
     Material() : gia(0.0), tonKho(0), noiNhap(""), nhom("") {}
 
